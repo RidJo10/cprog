@@ -11,11 +11,13 @@ int main(){
 }
 
 void lp(int base){
-    for(int i=0;i<base;i++){
-        for(int j=(i+1);j<base;j++){
+    for(int i=1;i<=base;i++){
+        for(int j=i;j<base;j++){
             printf(" ");
         }
-        printf("*");
+        for(int k=1;k<=i;k++){
+            printf("*");
+        }
         printf("\n");
     }
 }
