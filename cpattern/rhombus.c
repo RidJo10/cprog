@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int rhombus(int height);
+int rhombus(int a);
 
 int main(){
     int h;
